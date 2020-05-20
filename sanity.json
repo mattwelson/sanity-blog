@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "project": {
+    "name": "Photo-Blog-Matt"
+  },
+  "api": {
+    "projectId": "nkp1yssl",
+    "dataset": "blog"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/code-input",
+    "@sanity/dashboard"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
