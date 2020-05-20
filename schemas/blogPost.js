@@ -26,13 +26,7 @@ export default {
     {
       name: "mainImage",
       title: "Main image",
-      type: "image",
-      options: {
-        hotspot: true,
-        options: {
-          metadata: ["location", "palette"],
-        },
-      },
+      type: "altImage",
     },
     // {
     //   name: "category",

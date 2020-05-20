@@ -9,6 +9,8 @@ import me from "./me"
 import blogPost from "./blogPost"
 import blockContent from "./blockContent"
 import blockContentSimple from "./blockContentSimple"
+import altImage from "./altImage"
+import quote from "./quote"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,5 +26,7 @@ export default createSchema({
     // non documents
     blockContent,
     blockContentSimple,
+    altImage,
+    quote,
   ]),
 })
